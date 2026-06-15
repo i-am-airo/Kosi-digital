@@ -1,0 +1,61 @@
+{
+  "buildCommand": "pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "env": [
+    {
+      "key": "DATABASE_URL",
+      "description": "MySQL database connection string"
+    },
+    {
+      "key": "JWT_SECRET",
+      "description": "Secret key for JWT token signing"
+    },
+    {
+      "key": "VITE_APP_ID",
+      "description": "Manus OAuth application ID"
+    },
+    {
+      "key": "OAUTH_SERVER_URL",
+      "description": "Manus OAuth server URL"
+    },
+    {
+      "key": "VITE_OAUTH_PORTAL_URL",
+      "description": "Manus OAuth portal URL"
+    },
+    {
+      "key": "OWNER_OPEN_ID",
+      "description": "Owner's Manus OpenID"
+    },
+    {
+      "key": "OWNER_NAME",
+      "description": "Owner's name"
+    },
+    {
+      "key": "BUILT_IN_FORGE_API_URL",
+      "description": "Manus built-in APIs URL"
+    },
+    {
+      "key": "BUILT_IN_FORGE_API_KEY",
+      "description": "Manus built-in APIs key"
+    },
+    {
+      "key": "VITE_FRONTEND_FORGE_API_KEY",
+      "description": "Frontend Manus API key"
+    },
+    {
+      "key": "VITE_FRONTEND_FORGE_API_URL",
+      "description": "Frontend Manus API URL"
+    },
+    {
+      "key": "VITE_ANALYTICS_ENDPOINT",
+      "description": "Analytics endpoint"
+    },
+    {
+      "key": "VITE_ANALYTICS_WEBSITE_ID",
+      "description": "Analytics website ID"
+    }
+  ]
+}
